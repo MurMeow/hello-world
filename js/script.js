@@ -1,4 +1,9 @@
 'use strict';
 window.onload = function () {
-  alert ("Hello world");
+
+    $('.flexslider').flexslider({
+      animation: "slide",
+      controlNav: "thumbnails"
+    });
+  
 }
