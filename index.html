@@ -16,8 +16,19 @@
 	</head>
 
 	<body>
-		<div>
-			<p>Hello world! I am WhiteCat =)</p>
+
+		<div class="content" id="content">
+			<form class="form_authorization">
+				<p class="authorization">
+					<input type="text" name="login" placeholder="Логин или e-mail">
+				</p>
+				<p class="authorization">
+					<input type="password" name="password" placeholder="Пароль" maxlength="20" class="showpassword">
+				</p>
+				<img src="images/OO.png" class="displayPassword">
+				<button type="submit" name="submit">Войти</button>
+				<img src="images/close-icon.png" class="close">
+			</form>
 		</div>
 
 		<script  src="js/jquery-3.4.1.min.js"></script>
